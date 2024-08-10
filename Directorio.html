@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/img/img_general/logo_con_fondo.png" />
+    <link rel="stylesheet" href="/css/css_general/header.css">
+    <link rel="stylesheet" href="/css/css_directorio/directorio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nosotros - Directorio | Cetis 104 </title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn_icon_header" id="menu-button">
+            <img src="./img/img_general/menu.png" class="menu-icono" alt="">
+        </button>
+        <a class="logo_header" href="./index.html">
+            <img src="./img/img_general/logo_con_texto.png" alt="Logo GN" class="img_logo">
+        </a>
+        <div class="navigation_header" id="navigation_header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <i class="fi fi-rr-x X-boton"></i>
+            </button>
+            <div class="dropdown">
+                <a href="#" class="dropbtn"><i class="fi fi-rr-school icono-navbar"></i> Plantel </a>
+                <div class="dropdown-content">
+                    <a href="/Directorio.html"><i class="fi fi-rs-book-bookmark"></i> Directorio </a>
+                    <a href="#" class="links-header"><i class="fi fi-ss-puzzle-piece"></i> Departamentos </a>
+                    <a href="#"><i class="fi fi-rs-building"></i> Infrestructura </a>
+                    <a href="#"><i class="fi fi-ss-marker"></i> Direccion </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropbtn"><i class="fi fi-sr-heart icono-navbar"></i> Nosotros </a>
+                <div class="dropdown-content">
+                    <a href="/Directorio.html"><i class="fi fi-rs-book-bookmark"></i> ------------ </a>
+                    <a href="#"><i class="fi fi-ss-puzzle-piece"></i> ------------ </a>
+                    <a href="#"><i class="fi fi-rs-building"></i> ------------ </a>
+                    <a href="#"><i class="fi fi-ss-marker"></i> ------------ </a>
+                </div>
+            </div>
+            <a href="#"><i class="fi fi-rr-workshop icono-navbar"></i> Oferta educativa </a>
+            <a href="#"><i class="fi fi-br-enter icono-navbar"></i> Admisión </a>
+            <a href="#"><i class="fi fi-sr-lightbulb-head icono-navbar"></i> Servicios </a>
+            <a href="#"><i class="fi fi-sr-student-alt icono-navbar"></i></i> Titulacion </a>
+        </div>
+        <div class="key-icon">
+            <a href="#" class="key-icon"><i class="fi fi-ss-key"></i> </a>
+        </div>
+    </header>
+    <!-- Menu lateral-->
+    <div id="menu" class="menu">
+        <div class="menu-header">
+            <h2> Menu </h2>
+            <a href="" class="inicio-link"><i class="fi fi-ss-key"></i></a>
+            <button onclick="closeSidebar()" class="close-button"><i class="fi fi-bs-cross"></i></button>
+        </div>
+        <a href="/index.html" class="inicio-link"><i class="fi fi-bs-house-chimney-blank"></i> Inicio </a>
+        <p class="space"></p>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-rr-school icono-navbar"></i> Plantel</a>
+            <div class="submenu">
+                <a href="/Directorio.html"><i class="fi fi-rs-book-bookmark"></i> Directorio </a>
+                <a href="#"><i class="fi fi-ss-puzzle-piece"></i> Departamentos </a>
+                <a href="#"><i class="fi fi-rs-building"></i> Infrestructura </a>
+                <a href="#"><i class="fi fi-ss-marker"></i> Direccion </a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-sr-heart icono-navbar"></i> Nosotros</a>
+            <div class="submenu">
+                <a href="#">Subopción 1</a>
+                <a href="#">Subopción 2</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="links-o"><i class="fi fi-rr-workshop icono-navbar"></i> Oferta educativa</a>
+            <div class="submenu">
+                <a href="#">Subopción 1</a>
+                <a href="#">Subopción 2</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-br-enter icono-navbar"></i> Admisión</a>
+            <div class="submenu">
+                <a href="#">Subopción 1</a>
+                <a href="#">Subopción 2</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-sr-lightbulb-head icono-navbar"></i> Servicios</a>
+            <div class="submenu">
+                <a href="#">Subopción 1</a>
+                <a href="#">Subopción 2</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-sr-student-alt icono-navbar"></i> Titulación</a>
+            <div class="submenu">
+                <a href="#">Subopción 1</a>
+                <a href="#">Subopción 2</a>
+            </div>
+        </div>
+    </div>
+
+    <div tabindex="0" class="content" onfocus="closeSidebar()" id="content">
+        <div class="news-container">
+            <div class="news-card">
+                <h2>Título de la Noticia 1</h2>
+                <p>Resumen de la noticia 1...</p>
+            </div>
+            <div class="news-card">
+                <h2>Título de la Noticia 2</h2>
+                <p>Resumen de la noticia 2...</p>
+            </div>
+            <div class="news-card">
+                <h2>Título de la Noticia 3</h2>
+                <p>Resumen de la noticia 3...</p>
+            </div>
+            <!-- Puedes agregar más tarjetas de noticias aquí -->
+        </div>
+    </div>
+
+    <script src="/js/js_general/header.js"></script>
+
+</body>
+</html>

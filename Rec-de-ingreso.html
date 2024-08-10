@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./img/img_general/logo_con_fondo.png" />
+    <link rel="stylesheet" href="./css/css_general/header.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> x - x | Cetis 104 </title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn_icon_header" id="menu-button">
+            <img src="./img/img_general/menu.png" class="menu-icono" alt="">
+        </button>
+        <a class="logo_header" href="./index.html">
+            <img src="./img/img_general/logo_con_texto.png" alt="Logo GN" class="img_logo">
+        </a>
+        <div class="navigation_header" id="navigation_header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <i class="fi fi-rr-x X-boton"></i>
+            </button>
+            <div class="dropdown">
+                <a href="#" class="dropbtn"><i class="fi fi-rr-school icono-navbar"></i> Plantel </a>
+                <div class="dropdown-content">
+                    <a href="/Oferta-educativa.html"><i class="fi fi-rr-workshop"></i> Oferta educativa</a>
+                    <a href="/Departamentos.html"><i class="fi fi-ss-puzzle-piece"></i> Departamentos </a>
+                    <a href="/infrestructura.html"><i class="fi fi-rs-building"></i> Infrestructura </a>
+                    <a href="/Ubicacion.html"><i class="fi fi-ss-marker"></i> Ubicación </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropbtn"><i class="fi fi-sr-heart icono-navbar"></i> Nosotros </a>
+                <div class="dropdown-content">
+                    <a href="#"><i class="fi fi-rr-megaphone"></i> Eventos / Noticias </a>
+                    <a href="/Directorio.html"><i class="fi fi-rs-book-bookmark"></i> Directorio </a>
+                    <a href="/Docentes.html"><i class="fi fi-sr-chalkboard-user"></i> Docentes </a>
+                    <a href="/Administrativos.html"><i class="fi fi-sr-user-gear"></i> Administativos </a>
+                    <a href="/historia.html"><i class="fi fi-rs-scroll-old"></i> Historia </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#"><i class="fi fi-br-enter icono-navbar"></i> Admisión </a>
+                <div class="dropdown-content">
+                    <a href="/Convocatoria.html"><i class="fi fi-rr-calendar-day"></i> Convocatoria </a>
+                    <a href="/Rec-de-ingreso.html"><i class="fi fi-br-icon-star"></i> Requisitos de ingreso </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#"><i class="fi fi-sr-lightbulb-head icono-navbar"></i> Servicios </a>
+                <div class="dropdown-content">
+                    <a href="/Contacto.html"><i class="fi fi-br-envelope"></i> Contacto </a>
+                    <a href="/Alumnos.html"><i class="fi fi-sr-backpack"></i> Alumnos </a>
+                    <a href="/Hemeroteca.html"><i class="fi fi-ss-books-medical"></i> Hemeroteca </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#"><i class="fi fi-sr-student-alt icono-navbar"></i></i> Titulacion </a>
+                <div class="dropdown-content">
+                    <a href="/Modalidades-tit.html"><i class="fi fi-rr-badge-check"></i> Modalidades de Tít.</a>
+                    <a href="/Requisitos-tit.html"><i class="fi fi-rs-memo-circle-check"></i> Requisitos para Tít. </a>
+                </div>
+            </div>
+        </div>
+        <div class="key-icon">
+            <a href="#" class="key-icon"><i class="fi fi-ss-key"></i> </a>
+        </div>
+    </header>
+    <!-- Menu lateral-->
+    <div id="menu" class="menu">
+        <div class="menu-header">
+            <h2> Menu </h2>
+            <a href="" class="inicio-link"><i class="fi fi-ss-key"></i></a>
+            <button onclick="closeSidebar()" class="close-button"><i class="fi fi-bs-cross"></i></button>
+        </div>
+        <a href="/index.html" class="inicio-link"><i class="fi fi-bs-house-chimney-blank"></i> Inicio </a>
+        <p class="space"></p>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-rr-school icono-navbar"></i> Plantel</a>
+            <div class="submenu">
+                <a href="/Oferta-educativa.html"><i class="fi fi-rr-workshop"></i> Oferta educativa</a>
+                <a href="/Departamentos.html"><i class="fi fi-ss-puzzle-piece"></i> Departamentos </a>
+                <a href="/infrestructura.html"><i class="fi fi-rs-building"></i> Infrestructura </a>
+                <a href="/Ubicacion.html"><i class="fi fi-ss-marker"></i> Ubicación </a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-sr-heart icono-navbar"></i> Nosotros</a>
+            <div class="submenu">
+                <a href="#"><i class="fi fi-rr-megaphone"></i> Eventos / Noticias </a>
+                <a href="/Directorio.html"><i class="fi fi-rs-book-bookmark"></i> Directorio </a>
+                <a href="/Docentes.html"><i class="fi fi-sr-chalkboard-user"></i> Docentes </a>
+                <a href="/Administrativos.html"><i class="fi fi-sr-user-gear"></i> Administativos </a>
+                <a href="/historia.html"><i class="fi fi-rs-scroll-old"></i> Historia </a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-br-enter icono-navbar"></i> Admisión</a>
+            <div class="submenu">
+                <a href="/Convocatoria.html"><i class="fi fi-rr-calendar-day"></i> Convocatoria </a>
+                <a href="/Rec-de-ingreso.html"><i class="fi fi-br-icon-star"></i> Requisitos de ingreso </a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-sr-lightbulb-head icono-navbar"></i> Servicios</a>
+            <div class="submenu">
+                <a href="/Contacto.html"><i class="fi fi-br-envelope"></i> Contacto </a>
+                <a href="/Alumnos.html"><i class="fi fi-sr-backpack"></i> Alumnos </a>
+                <a href="/Hemeroteca.html"><i class="fi fi-ss-books-medical"></i> Hemeroteca </a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="#" class="links"><i class="fi fi-sr-student-alt icono-navbar"></i> Titulación</a>
+            <div class="submenu">
+                <a href="/Modalidades-tit.html"><i class="fi fi-rr-badge-check"></i> Modalidades de Tít.</a>
+                <a href="/Requisitos-tit.html"><i class="fi fi-rs-memo-circle-check"></i> Requisitos para Tít. </a>
+            </div>
+        </div>
+    </div>
+
+    <div tabindex="0" class="content" onfocus="closeSidebar()" id="content">
+
+    </div>
+
+    <script src="./js/js_general/header.js"></script>
+
+</body>
+</html>
